@@ -10,24 +10,24 @@ function App() {
     {
       id: 1,
       title: "제목",
-      contests: "내용",
+      contents: "내용",
       isDone: false,
     },
     {
       id: 2,
       title: "제목2",
-      contests: "내용2",
+      contents: "내용2",
       isDone: false,
     },
     {
       id: 3,
       title: "제목3",
-      contests: "내용3",
+      contents: "내용3",
       isDone: true,
     },
   ];
 
-  const [todos, setTodos] = useState([initalState]);
+  const [todos, setTodos] = useState(initalState);
 
   return (
     <div
